@@ -19,8 +19,9 @@ function findMax(list){
                         third = second;
                         second = actual;
                     }
+                } else {
+                    third = actual;
                 }
-                third = actual;
             }
             actual = 0;
         } else {
